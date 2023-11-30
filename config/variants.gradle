@@ -1,0 +1,21 @@
+ext{
+
+    STRING = "String"
+    BOOLEAN = "boolean"
+    INT = "int"
+
+    renapo = [
+
+       apiUrl : [debug:  "\"https://172.16.124.1:8016/snip/services\"",
+                 quality:"\"https://172.16.124.1:8016/snip/services\"",
+                 release:"\"https://172.16.124.1:8016/snip/services\""
+                ],
+
+       tokenUrl: [ debug:  "\"/getAccessToken\"",
+                   quality:"\"/getAccessToken\"",
+                   release:"\"/getAccessToken\""],
+
+    ]
+
+
+}
